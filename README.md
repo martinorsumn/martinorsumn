@@ -21,5 +21,5 @@ Computer Science student at the University of Maryland.
 
 ## Projects
 - [Scarsalide Adventure Game](https://github.com/martinorsumn/Scarsalide-Adventure-Game) — Python Text Adventure
-- https://github.com/martinorsumn/Nightfall-Horror-Tycoon - Roblox Horror Tycoon
-- https://github.com/martinorsumn/instagram-followers-checker - Follower Checker 
+- [Nightfall](https://github.com/martinorsumn/Nightfall-Horror-Tycoon) - Roblox Horror Tycoon
+- [Followers vs Following](https://github.com/martinorsumn/instagram-followers-checker) - Follower Checker 
