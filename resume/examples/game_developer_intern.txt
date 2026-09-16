@@ -1,0 +1,18 @@
+Game Developer Intern (Gameplay)
+
+Studio overview:
+We build immersive multiplayer games and are hiring a gameplay-focused intern.
+You'll prototype game mechanics, implement gameplay programming systems, and
+iterate on game design with a small, collaborative team.
+
+Responsibilities:
+- Prototype and implement gameplay features (progression, economy, NPC behavior)
+- Work in engines/platforms such as Unity, Unreal, or Roblox (Lua)
+- Build and tune systems like enemy pathfinding and day/night cycles
+- Rapidly prototype ideas and turn feedback into polished mechanics
+
+Requirements:
+- Passion for game development and game design
+- Programming experience (Lua, Python, or C#)
+- A portfolio of games or interactive prototypes
+- Curiosity about AI-assisted development workflows
