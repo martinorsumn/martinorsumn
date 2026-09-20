@@ -1,0 +1,18 @@
+Software Engineering Intern — Summer 2027
+
+About the role:
+We're looking for a software engineering intern who loves to build. You'll work
+on real features in Python and Java, collaborate through code review and pull
+requests on GitHub, and learn our agile software development process.
+
+What we're looking for:
+- Currently pursuing a degree in Computer Science or related field
+- Solid grasp of data structures, algorithms, and object-oriented programming
+- Experience with Python or Java (personal projects count!)
+- Familiarity with Git / version control
+- Interest in automation and writing clean, maintainable code
+- Strong communication and teamwork in a fast-paced environment
+
+Nice to have:
+- Exposure to AI / machine learning tools
+- Open-source contributions

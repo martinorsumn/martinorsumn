@@ -1,0 +1,226 @@
+# =============================================================================
+# MASTER RESUME  —  single source of truth for the resume tailoring tool.
+#
+# This mirrors the content of Martin_Shijo_Resume.pdf. The tailoring tool
+# (`resume/tailor.py`) reorders and emphasizes the items below based on each
+# company's job description. The richer and more accurate the `tags` on each
+# item, the better the tailored output — extend them as you add experience.
+#
+# `tags` are lowercase keywords (skills, tools, domains) that an item
+# demonstrates; they drive relevance matching against a job description.
+# =============================================================================
+
+name: "Martin Shijo"
+headline: "Computer Science Student @ University of Maryland"
+
+contact:
+  email: "martinshijo9@gmail.com"
+  phone: "667-272-4968"
+  location: "College Park, MD"
+  github: "https://github.com/martinorsumn"
+  linkedin: "https://www.linkedin.com/in/martinshijo"
+  website: ""
+
+# Optional tailored summary. Placeholders filled per application:
+#   {company} -> company you're applying to
+#   {role}    -> role (falls back to "software" if not provided)
+#   {skills}  -> your top strengths that matched this job description
+# Set `include_summary: false` to omit the summary entirely.
+include_summary: true
+summary_template: >-
+  Computer Science student at the University of Maryland (expected 2030)
+  pursuing a {role} role at {company}. Hands-on builder with strengths in
+  {skills}, combining self-directed software projects with real prototyping,
+  robotics, and team-leadership experience.
+
+education:
+  - school: "University of Maryland, College Park"
+    degree: "Bachelor's in Computer Science"
+    location: "College Park, MD"
+    dates: "Expected May 2030"
+    details:
+      - "FIRE (UMD research program) — Machine Learning stream (planned), Spring 2027"
+    # Keeps FIRE's research/ML relevance available to the tailoring tool even
+    # though it renders (honestly) under Education while it's still "planned".
+    tags:
+      - research
+      - machine learning
+      - artificial intelligence
+      - python
+      - data science
+
+# Skills grouped by category, mirroring the resume. Matched skills are bolded
+# and floated to the front of their category in the tailored output.
+skills:
+  Languages:
+    - Java
+    - Python
+  Tools:
+    - Git
+    - GitHub
+    - Bambu Lab
+    - xTool Studio
+    - Cursor
+  "Design & Fabrication":
+    - Tinkercad
+    - 3D Printing
+    - Laser Cutting
+    - VEX Robotics
+
+# Work experience — reordered by relevance to each job description.
+# NOTE: FIRE (Machine Learning research stream) currently lives under Education
+# because it's still "planned." Once the stream is underway and you have real
+# work to describe, promote it into its own entry here with concrete bullets.
+experience:
+  - title: "Robotics Intern"
+    org: "MAGIC"
+    location: "Bambu Lab, xTool Studio"
+    dates: "Feb 2026 – Jun 2026"
+    tags:
+      - 3d printing
+      - prototyping
+      - tinkercad
+      - cad
+      - fabrication
+      - vex robotics
+      - robotics
+      - hardware
+      - stem
+      - teamwork
+    bullets:
+      - "Designed and prototyped 4 iterations of a 3D-printed cable management system in Tinkercad; final design deployed across the workspace (50+ units installed)."
+      - "Assembled and inventoried 20 VEX Robotics kits supporting 20+ students in STEM programs."
+
+  - title: "Barista"
+    org: "American Ice Co. Cafe"
+    location: ""
+    dates: "Jun 2023 – Jun 2026"
+    tags:
+      - customer service
+      - operations
+      - teamwork
+      - training
+      - communication
+      - time management
+    bullets:
+      - "Managed solo shifts serving ~60 customers/shift while handling POS, inventory, and ~10 delivery orders/day in a café generating up to $2,000/day."
+      - "Trained 3 new team members on workflows and operating procedures."
+
+# Projects — reordered by relevance to each job description.
+projects:
+  - name: "Nightfall — Roblox Horror Tycoon"
+    subtitle: "AI-Assisted Development · Roblox Studio · Lua"
+    url: "https://github.com/martinorsumn/Nightfall-Horror-Tycoon"
+    dates: "Mar 2026 – Jul 2026"
+    tags:
+      - game development
+      - game design
+      - roblox
+      - lua
+      - ai-assisted development
+      - artificial intelligence
+      - gameplay programming
+      - pathfinding
+      - prototyping
+    bullets:
+      - "Developed an iterative Roblox prototype to evaluate AI-assisted game development workflows and document their capabilities and limitations."
+      - "Designed resource collection, base building, NPC villagers, enemy pathfinding, day/night cycles, audio, and procedural tree growth; tested AI-generated systems and refined gameplay behavior."
+
+  - name: "Python Adventure Game"
+    subtitle: "Python · GitHub"
+    url: ""
+    dates: "May 2024 – Aug 2024"
+    tags:
+      - python
+      - game development
+      - object-oriented programming
+      - data structures
+      - cli
+      - game design
+    bullets:
+      - "Developed a text-based adventure game featuring randomized combat, enemy encounters, health, armor, weapons, and escape mechanics."
+      - "Implemented a village system with shops, trading, inventory, and upgrades using functions, loops, lists, dictionaries, and randomized gameplay."
+
+  - name: "Followers Analyzer"
+    subtitle: "Java · GitHub"
+    url: "https://github.com/martinorsumn/instagram-followers-checker"
+    dates: "Aug 2026"
+    tags:
+      - java
+      - data structures
+      - algorithms
+      - data parsing
+      - automation
+    bullets:
+      - "Developed a Java program that compares Instagram followers and following lists to identify non-mutual connections using ArrayLists, string parsing, iteration, and conditional logic."
+
+# Leadership & activities — reordered by relevance to each job description.
+leadership:
+  - title: "Class Vice President"
+    org: "Winters Mill High School"
+    dates: "Sep 2024 – May 2026"
+    tags:
+      - leadership
+      - communication
+      - event planning
+      - teamwork
+      - organization
+    bullets:
+      - "Represented ~300 students on a 5-person board; organized 15 events and raised $8,000 for prom."
+
+  - title: "Founder"
+    org: "Coding Club"
+    dates: "Sep 2024 – Jun 2025"
+    tags:
+      - leadership
+      - teaching
+      - mentorship
+      - programming
+      - communication
+    bullets:
+      - "Founded a weekly CodeHS club with 15 members teaching programming fundamentals to peers."
+
+# Synonyms map job-description phrasing to the canonical skills/tags above.
+# Format: canonical term (appears in a skill/tag above) -> surface forms that
+# might appear in a job description. Extend as you meet new terminology.
+synonyms:
+  python: [python, py, django, flask, pandas, numpy]
+  java: [java, jvm, spring, "spring boot"]
+  "artificial intelligence": [ai, "artificial intelligence", "machine learning", ml, "deep learning", llm, "generative ai", "prompt engineering"]
+  "machine learning": ["machine learning", ml, "deep learning", "neural network", "neural networks", pytorch, tensorflow, "scikit-learn", "computer vision", nlp]
+  research: [research, "research experience", "undergraduate research", "research assistant", "r&d", "research and development", publication, "peer-reviewed", laboratory, lab]
+  "data science": ["data science", "data analysis", "data-driven", statistics, pandas, numpy]
+  "ai-assisted development": ["ai-assisted", "ai assisted", "copilot", "ai tools", "ai workflow"]
+  "game development": [game, games, "game development", "game dev", gameplay, unity, unreal, roblox, godot]
+  "game design": ["game design", "level design", "gameplay design"]
+  lua: [lua, roblox]
+  "data structures": ["data structures", "data structure", arraylist, "arrays", "linked list"]
+  algorithms: [algorithms, algorithm, algorithmic]
+  "object-oriented programming": ["object-oriented", "object oriented", oop, "oo design", classes]
+  "software engineering": ["software engineering", "software development", sdlc, "software engineer", agile, "code review", debugging]
+  automation: [automation, automate, scripting, script, "ci/cd"]
+  "data parsing": ["data parsing", parsing, "string parsing", "data extraction", scraping, "web scraping"]
+  git: [git, "version control"]
+  github: [github, "pull request", "source control"]
+  "3d printing": ["3d printing", "3d print", "additive manufacturing", "fdm"]
+  tinkercad: [tinkercad, cad, "3d modeling", "3d design"]
+  cad: [cad, "computer-aided design", solidworks, fusion360, "fusion 360"]
+  fabrication: [fabrication, "laser cutting", machining, "rapid prototyping"]
+  "laser cutting": ["laser cutting", "laser cutter"]
+  prototyping: [prototyping, prototype, "rapid prototyping", "proof of concept"]
+  "vex robotics": ["vex", "vex robotics", robotics, "robotics kit"]
+  robotics: [robotics, robot, "embedded", "mechatronics", automation]
+  hardware: [hardware, electronics, soldering, "circuit"]
+  stem: [stem, "stem education", "k-12", outreach]
+  "customer service": ["customer service", "customer-facing", hospitality, retail, "point of sale", pos]
+  operations: [operations, "inventory", logistics, "operational"]
+  training: [training, onboarding, "train", "coaching"]
+  teamwork: [teamwork, collaboration, "team player", "cross-functional", "team environment"]
+  communication: [communication, "communication skills", "written and verbal", presentation]
+  leadership: [leadership, "team lead", "led a team", management, "leading"]
+  "event planning": ["event planning", events, "event management", "coordinating"]
+  organization: [organization, organized, "detail-oriented", "time management"]
+  teaching: [teaching, teach, tutoring, instruction, "curriculum"]
+  mentorship: [mentorship, mentoring, mentor, coaching]
+  programming: [programming, coding, "software", developer, "development"]
+  "time management": ["time management", "fast-paced", "deadline", multitasking]

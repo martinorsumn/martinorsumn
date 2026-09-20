@@ -7,3 +7,9 @@ __pycache__/
 
 # PyMarkdown / tooling caches
 .pymarkdown.cache/
+
+# pytest cache
+.pytest_cache/
+
+# Generated tailored resumes (resume/tailor.py output)
+resume/build/

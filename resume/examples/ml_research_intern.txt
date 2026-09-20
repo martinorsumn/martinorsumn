@@ -1,0 +1,17 @@
+Machine Learning Research Intern
+
+About us:
+We are a research organization applying machine learning to hard real-world
+problems. Our teams publish and prototype rapidly.
+
+What you'll do:
+- Support undergraduate research projects in machine learning and AI
+- Prototype models in Python (PyTorch / scikit-learn)
+- Run experiments, analyze data, and document findings
+- Collaborate with a faculty-style mentor in a lab environment
+
+What we look for:
+- Coursework or research experience in machine learning / AI
+- Programming in Python
+- Curiosity, strong communication, and a data-driven mindset
+- Bonus: exposure to computer vision or NLP

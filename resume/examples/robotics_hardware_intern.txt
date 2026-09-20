@@ -1,0 +1,18 @@
+Robotics & Hardware Prototyping Intern
+
+Team:
+Our hardware team designs and manufactures robotics products. We're seeking an
+intern to support rapid prototyping and fabrication.
+
+You will:
+- Create 3D models in CAD (Tinkercad, Fusion 360) and run 3D printing jobs
+- Support fabrication including laser cutting and additive manufacturing
+- Assemble and test robotics kits (VEX robotics experience a plus)
+- Help run STEM outreach and mentor students
+- Iterate on prototype designs and document capabilities and limitations
+
+Requirements:
+- Hands-on prototyping and fabrication experience
+- Comfort with 3D printing and CAD tooling
+- Strong teamwork, organization, and communication
+- Bonus: programming experience (Python or Java)
