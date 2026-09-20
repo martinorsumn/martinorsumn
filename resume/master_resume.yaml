@@ -59,8 +59,24 @@ skills:
     - Laser Cutting
     - VEX Robotics
 
-# Work experience — reordered by relevance to each job description.
+# Work & research experience — reordered by relevance to each job description.
 experience:
+  # NOTE: In-progress research experience. Update the dates and add specifics
+  # (faculty/lab, project topic, tools) once your FIRE stream is underway.
+  - title: "Machine Learning Research Stream — FIRE"
+    org: "University of Maryland (First-Year Innovation & Research Experience)"
+    location: "College Park, MD"
+    dates: "2026 – 2027"
+    tags:
+      - research
+      - machine learning
+      - artificial intelligence
+      - python
+      - data science
+    bullets:
+      - "Selected for FIRE, UMD's multi-semester, faculty-mentored undergraduate research program."
+      - "Participating in the Machine Learning research stream, conducting hands-on research applying ML/AI techniques in Python."
+
   - title: "Robotics Intern"
     org: "MAGIC"
     location: "Bambu Lab, xTool Studio"
@@ -176,6 +192,9 @@ synonyms:
   python: [python, py, django, flask, pandas, numpy]
   java: [java, jvm, spring, "spring boot"]
   "artificial intelligence": [ai, "artificial intelligence", "machine learning", ml, "deep learning", llm, "generative ai", "prompt engineering"]
+  "machine learning": ["machine learning", ml, "deep learning", "neural network", "neural networks", pytorch, tensorflow, "scikit-learn", "computer vision", nlp]
+  research: [research, "research experience", "undergraduate research", "research assistant", "r&d", "research and development", publication, "peer-reviewed", laboratory, lab]
+  "data science": ["data science", "data analysis", "data-driven", statistics, pandas, numpy]
   "ai-assisted development": ["ai-assisted", "ai assisted", "copilot", "ai tools", "ai workflow"]
   "game development": [game, games, "game development", "game dev", gameplay, unity, unreal, roblox, godot]
   "game design": ["game design", "level design", "gameplay design"]
