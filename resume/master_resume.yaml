@@ -35,11 +35,19 @@ summary_template: >-
 
 education:
   - school: "University of Maryland, College Park"
-    degree: "B.S. in Computer Science"
+    degree: "Bachelor's in Computer Science"
     location: "College Park, MD"
     dates: "Expected May 2030"
     details:
-      - "Relevant coursework (in progress): CMSC 131, Calculus 1"
+      - "FIRE (UMD research program) — Machine Learning stream (planned), Spring 2027"
+    # Keeps FIRE's research/ML relevance available to the tailoring tool even
+    # though it renders (honestly) under Education while it's still "planned".
+    tags:
+      - research
+      - machine learning
+      - artificial intelligence
+      - python
+      - data science
 
 # Skills grouped by category, mirroring the resume. Matched skills are bolded
 # and floated to the front of their category in the tailored output.
@@ -59,24 +67,11 @@ skills:
     - Laser Cutting
     - VEX Robotics
 
-# Work & research experience — reordered by relevance to each job description.
+# Work experience — reordered by relevance to each job description.
+# NOTE: FIRE (Machine Learning research stream) currently lives under Education
+# because it's still "planned." Once the stream is underway and you have real
+# work to describe, promote it into its own entry here with concrete bullets.
 experience:
-  # NOTE: In-progress research experience. Update the dates and add specifics
-  # (faculty/lab, project topic, tools) once your FIRE stream is underway.
-  - title: "Machine Learning Research Stream — FIRE"
-    org: "University of Maryland (First-Year Innovation & Research Experience)"
-    location: "College Park, MD"
-    dates: "2026 – 2027"
-    tags:
-      - research
-      - machine learning
-      - artificial intelligence
-      - python
-      - data science
-    bullets:
-      - "Selected for FIRE, UMD's multi-semester, faculty-mentored undergraduate research program."
-      - "Participating in the Machine Learning research stream, conducting hands-on research applying ML/AI techniques in Python."
-
   - title: "Robotics Intern"
     org: "MAGIC"
     location: "Bambu Lab, xTool Studio"

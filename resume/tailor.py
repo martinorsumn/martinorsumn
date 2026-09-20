@@ -65,7 +65,10 @@ def load_resume(path: Path) -> dict:
 
 def _all_tags(resume: dict) -> set[str]:
     tags: set[str] = set()
-    for section in ("experience", "projects", "leadership"):
+    # Education is included so program tags (e.g. FIRE's ML/research keywords)
+    # still inform matching and the Key Skills callout, even though Education
+    # itself is not reordered.
+    for section in ("experience", "projects", "leadership", "education"):
         for item in resume.get(section) or []:
             for tag in item.get("tags") or []:
                 tags.add(str(tag).strip().lower())
