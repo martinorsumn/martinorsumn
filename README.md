@@ -24,4 +24,4 @@ Computer Science student at the University of Maryland.
 - [Nightfall](https://github.com/martinorsumn/Nightfall-Horror-Tycoon) - Roblox Horror Tycoon
 - [Scarsalide Adventure Game](https://github.com/martinorsumn/Scarsalide-Adventure-Game) - Python Text Adventure
 - [Followers vs Following](https://github.com/martinorsumn/instagram-followers-checker) - Follower Checker
-- TerpWhisper(https://github.com/martinorsumn/Technica2026_extension) - Planet Terp Summarizer
+- [TerpWhisper](https://github.com/martinorsumn/Technica2026_extension) - Planet Terp Summarizer
