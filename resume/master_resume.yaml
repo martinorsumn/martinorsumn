@@ -39,15 +39,17 @@ education:
     location: "College Park, MD"
     dates: "Expected May 2030"
     details:
-      - "FIRE (UMD research program) — Machine Learning stream (planned), Spring 2027"
-    # Keeps FIRE's research/ML relevance available to the tailoring tool even
-    # though it renders (honestly) under Education while it's still "planned".
+      - "FIRE (UMD research program) — Climate Computing research stream, Spring 2027"
+    # Keeps the FIRE research relevance available to the tailoring tool even
+    # though it renders under Education. Add 'machine learning' back to the tags
+    # if the Climate Computing stream turns out to involve ML work.
     tags:
       - research
-      - machine learning
-      - artificial intelligence
-      - python
+      - climate computing
       - data science
+      - data analysis
+      - scientific computing
+      - python
 
 # Skills grouped by category, mirroring the resume. Matched skills are bolded
 # and floated to the front of their category in the tailored output.
@@ -190,6 +192,9 @@ synonyms:
   "machine learning": ["machine learning", ml, "deep learning", "neural network", "neural networks", pytorch, tensorflow, "scikit-learn", "computer vision", nlp]
   research: [research, "research experience", "undergraduate research", "research assistant", "r&d", "research and development", publication, "peer-reviewed", laboratory, lab]
   "data science": ["data science", "data analysis", "data-driven", statistics, pandas, numpy]
+  "climate computing": [climate, "climate computing", "climate science", "climate tech", sustainability, environmental, "earth science", "clean energy", "carbon"]
+  "data analysis": ["data analysis", "data analytics", analytics, visualization]
+  "scientific computing": ["scientific computing", simulation, modeling, "computational science", "numerical methods"]
   "ai-assisted development": ["ai-assisted", "ai assisted", "copilot", "ai tools", "ai workflow"]
   "game development": [game, games, "game development", "game dev", gameplay, unity, unreal, roblox, godot]
   "game design": ["game design", "level design", "gameplay design"]
