@@ -1,0 +1,17 @@
+{
+  "name": "martinorsumn profile README",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "readme-preview",
+      "command": "bash .cursor/preview.sh",
+      "description": "Offline GitHub-flavored Markdown preview of README.md at http://localhost:6419 (auto-reloads on save)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "readme-preview",
+      "port": 6419
+    }
+  ]
+}

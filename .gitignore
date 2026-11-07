@@ -1,0 +1,9 @@
+# Python virtualenv created by .cursor/install.sh
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# PyMarkdown / tooling caches
+.pymarkdown.cache/
