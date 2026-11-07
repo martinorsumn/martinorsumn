@@ -1,0 +1,20 @@
+Representative sample posting for a tailored example. Not an official Google listing.
+
+Software Engineering Intern, Bachelor's — Summer 2027
+
+About the role:
+Software engineering interns design, test, and ship code on a team. You will
+write software in Java, Python, C, or C++, review teammates' changes, and use
+version control day to day.
+
+What we're looking for:
+- Enrolled in a bachelor's program in Computer Science or a related field
+- Experience programming in Java or Python (coursework and personal projects count)
+- Coursework or projects using data structures, algorithms, and object-oriented programming
+- Practice testing code and debugging until it behaves correctly
+- Familiarity with Git, GitHub, and code review
+- Clear communication and teamwork
+
+Nice to have:
+- A project you built, shipped, and iterated on
+- Interest in software engineering beyond class assignments
