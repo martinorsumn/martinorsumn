@@ -8,3 +8,8 @@ pymarkdownlnt==0.9.39
 # Resume tailoring tool (resume/tailor.py) + its tests.
 PyYAML==6.0.3
 pytest==8.4.2
+
+# Resume PDF/DOCX export (resume/export/*.py).
+fpdf2==2.9.0
+python-docx==1.2.0
+pillow==13.0.0
