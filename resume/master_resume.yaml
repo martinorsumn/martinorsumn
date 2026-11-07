@@ -28,7 +28,7 @@ contact:
 # Set `include_summary: false` to omit the summary entirely.
 include_summary: true
 summary_template: >-
-  Computer Science student at the University of Maryland (expected 2030)
+  Computer Science student at the University of Maryland (graduating May 2029)
   pursuing a {role} role at {company}. Hands-on builder with strengths in
   {skills}, combining self-directed software projects with real prototyping,
   robotics, and team-leadership experience.
@@ -37,7 +37,7 @@ education:
   - school: "University of Maryland, College Park"
     degree: "Bachelor's in Computer Science"
     location: "College Park, MD"
-    dates: "Expected May 2030"
+    dates: "Expected May 2029"
     details:
       - "FIRE (UMD research program) — Climate Computing research stream, Spring 2027"
     # Keeps the FIRE research relevance available to the tailoring tool even
