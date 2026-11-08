@@ -191,13 +191,10 @@ skill("Tech", "Git, GitHub, Cursor, 3D Printing, Laser Cutting, VEX Robotics, Ba
 section("Work Experience")
 header_row("MAGIC  |  Robotics Intern  |  Bambu Lab, xTool Studio", "Feb 2026 \u2013 Jun 2026")
 bullet(
-    "Prototyped 4 Tinkercad cable holders. Three of the four, including the final one, started from "
-    "a premade design. The first was a premade spool on a U. Final version installed (50+ units)"
+    "Designed and prototyped 4 iterations of a 3D printed cable management system in Tinkercad; "
+    "final design deployed across the workspace (50+ units installed)"
 )
-bullet(
-    "Assembled and took apart VEX robots from scratch, with and without tutorials, and prepared "
-    "20 kits for 20+ students"
-)
+bullet("Assembled and inventoried 20 VEX Robotics kits supporting 20+ students in STEM programs")
 
 header_row("American Ice Co. Cafe  |  Barista", "Jun 2023 \u2013 Jun 2026")
 bullet(
@@ -208,14 +205,14 @@ bullet("Trained 3 new team members on workflows and operating procedures")
 
 section("Projects")
 header_row("Nightfall \u2014 Roblox Horror Tycoon", "Mar 2026 \u2013 Jul 2026")
-subtitle("AI Assisted Development  |  Roblox Studio")
+subtitle("AI Assisted Development  |  Roblox Studio  |  Lua")
 bullet(
-    "Directed a Roblox horror tycoon in Studio by supplying assets and direction, then iterating "
-    "with AI on changes such as player speed until the game felt right"
+    "Developed an iterative Roblox prototype to evaluate AI assisted development workflows and "
+    "document their capabilities and limitations"
 )
 bullet(
-    "Tested AI generated systems for resources, base building, villagers, pathfinding, day and "
-    "night cycles, audio, and tree growth, and requested tweaks until they worked"
+    "Designed resource collection, base building, NPC villagers, enemy pathfinding, day/night "
+    "cycles, audio, and procedural tree growth; tested AI generated systems and refined behavior"
 )
 
 header_row("Passport Project", "Oct 2026")

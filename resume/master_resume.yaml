@@ -88,8 +88,8 @@ experience:
       - stem
       - teamwork
     bullets:
-      - "Prototyped 4 cable holder versions in Tinkercad. The first was a premade spool attached to a U for the wire. Three of the four, including the final version, started from a premade design. The final version was installed across the workspace (50+ units)."
-      - "Assembled and took apart VEX robots from scratch, with and without tutorials, and prepared 20 kits for 20+ students in STEM programs."
+      - "Designed and prototyped 4 iterations of a 3D-printed cable management system in Tinkercad; final design deployed across the workspace (50+ units installed)."
+      - "Assembled and inventoried 20 VEX Robotics kits supporting 20+ students in STEM programs."
 
   - title: "Barista"
     org: "American Ice Co. Cafe"
@@ -109,20 +109,22 @@ experience:
 # Projects — reordered by relevance to each job description.
 projects:
   - name: "Nightfall — Roblox Horror Tycoon"
-    subtitle: "AI Assisted Development · Roblox Studio"
+    subtitle: "AI-Assisted Development · Roblox Studio · Lua"
     url: "https://github.com/martinorsumn/Nightfall-Horror-Tycoon"
     dates: "Mar 2026 – Jul 2026"
     tags:
       - game development
       - game design
       - roblox
+      - lua
       - ai-assisted development
       - artificial intelligence
+      - gameplay programming
       - pathfinding
       - prototyping
     bullets:
-      - "Directed a Roblox horror tycoon in Roblox Studio by supplying assets and direction, then iterating with AI on changes such as player speed until the game felt right."
-      - "Tested AI generated systems for resource collection, base building, NPC villagers, enemy pathfinding, day and night cycles, audio, and procedural tree growth, and requested tweaks until the behavior worked."
+      - "Developed an iterative Roblox prototype to evaluate AI-assisted game development workflows and document their capabilities and limitations."
+      - "Designed resource collection, base building, NPC villagers, enemy pathfinding, day/night cycles, audio, and procedural tree growth; tested AI-generated systems and refined gameplay behavior."
 
   - name: "Python Adventure Game"
     subtitle: "Python · GitHub"
