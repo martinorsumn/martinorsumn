@@ -34,6 +34,7 @@ python resume/export/make_docx.py
 - FIRE research program — **Climate Computing** stream (Spring 2027), listed under Education.
 - Leadership includes **Bitcamp 2027 Logistics Organizer (Hardware)**.
 - The committed example is tailored for a **Steelcase IT Summer Intern** application; change the summary and ordering in `make_pdf.py`/`make_docx.py` (or regenerate from `master_resume.yaml`) for other companies.
-- A **Google Software Engineering Intern** example is `python resume/export/make_google_pdf.py`, which writes `resume/build/Martin_Shijo_Resume_Google.pdf`. The sample posting is `resume/examples/google_software_engineering_intern.txt`. Passport stays on the Steelcase page; this example uses Python Adventure Game, Followers Analyzer, and Nightfall instead.
+- The general resume (Martin_Shijo_Resume_v6) is the master: projects are Nightfall, Python Adventure Game, and Passport; leadership is Class Vice President and Bitcamp.
+- A **Google Software Engineering Intern** example is `python resume/export/make_google_pdf.py`, which writes `resume/build/Martin_Shijo_Resume_Google.pdf`. The sample posting is `resume/examples/google_software_engineering_intern.txt`. It uses the v6 projects and leadership, with the code projects ordered first.
 
 See PR for history.

@@ -1,7 +1,7 @@
 # =============================================================================
 # MASTER RESUME  —  single source of truth for the resume tailoring tool.
 #
-# This mirrors the content of Martin_Shijo_Resume.pdf. The tailoring tool
+# This mirrors Martin_Shijo_Resume_v6, the general resume. The tailoring tool
 # (`resume/tailor.py`) reorders and emphasizes the items below based on each
 # company's job description. The richer and more accurate the `tags` on each
 # item, the better the tailored output — extend them as you add experience.
@@ -39,7 +39,7 @@ education:
     location: "College Park, MD"
     dates: "Expected May 2029"
     details:
-      - "FIRE (UMD research program) — Climate Computing research stream, Spring 2027"
+      - "FIRE (UMD research program) — Climate Computing, Spring 2027"
     # Keeps the FIRE research relevance available to the tailoring tool even
     # though it renders under Education. Add 'machine learning' back to the tags
     # if the Climate Computing stream turns out to involve ML work.
@@ -57,22 +57,20 @@ skills:
   Languages:
     - Java
     - Python
-  Tools:
+  Tech:
     - Git
     - GitHub
     - Bambu Lab
     - xTool Studio
     - Cursor
-  "Design & Fabrication":
-    - Tinkercad
     - 3D Printing
     - Laser Cutting
     - VEX Robotics
 
 # Work experience — reordered by relevance to each job description.
-# NOTE: FIRE (Machine Learning research stream) currently lives under Education
-# because it's still "planned." Once the stream is underway and you have real
-# work to describe, promote it into its own entry here with concrete bullets.
+# NOTE: FIRE (Climate Computing) currently lives under Education because it
+# has not started. Once the stream is underway and you have real work to
+# describe, promote it into its own entry here with concrete bullets.
 experience:
   - title: "Robotics Intern"
     org: "MAGIC"
@@ -143,18 +141,19 @@ projects:
       - "Developed a text-based adventure game featuring randomized combat, enemy encounters, health, armor, weapons, and escape mechanics."
       - "Implemented a village system with shops, trading, inventory, and upgrades using functions, loops, lists, dictionaries, and randomized gameplay."
 
-  - name: "Followers Analyzer"
-    subtitle: "Java · GitHub"
-    url: "https://github.com/martinorsumn/instagram-followers-checker"
-    dates: "Aug 2026"
+  - name: "Passport Project"
+    subtitle: "Java · Eclipse · JUnit"
+    url: ""
+    dates: "Oct 2026"
     tags:
       - java
-      - data structures
-      - algorithms
-      - data parsing
-      - automation
+      - object-oriented programming
+      - junit
+      - testing
+      - eclipse
     bullets:
-      - "Developed a Java program that compares Instagram followers and following lists to identify non-mutual connections using ArrayLists, string parsing, iteration, and conditional logic."
+      - "Built a Passport class in Java with multiple constructors, name validation, and StringBuffer stamp tracking."
+      - "Implemented equals, compareTo, separator formatting, and static helpers, verified with JUnit tests."
 
 # Leadership & activities — reordered by relevance to each job description.
 leadership:
@@ -170,17 +169,18 @@ leadership:
     bullets:
       - "Represented ~300 students on a 5-person board; organized 15 events and raised $8,000 for prom."
 
-  - title: "Founder"
-    org: "Coding Club"
-    dates: "Sep 2024 – Jun 2025"
+  - title: "Bitcamp 2027 Logistics Organizer (Hardware)"
+    org: "University of Maryland"
+    dates: "Oct 2026 – Present"
     tags:
       - leadership
-      - teaching
-      - mentorship
-      - programming
-      - communication
+      - logistics
+      - event planning
+      - hardware
+      - teamwork
+      - organization
     bullets:
-      - "Founded a weekly CodeHS club with 15 members teaching programming fundamentals to peers."
+      - "Logistics organizer for Bitcamp, one of the East Coast's largest hackathons (1,000+ hackers), helping coordinate event operations and logistics."
 
 # Synonyms map job-description phrasing to the canonical skills/tags above.
 # Format: canonical term (appears in a skill/tag above) -> surface forms that
@@ -188,6 +188,8 @@ leadership:
 synonyms:
   python: [python, py, django, flask, pandas, numpy]
   java: [java, jvm, spring, "spring boot"]
+  junit: [junit, "unit test", "unit testing", "unit tests"]
+  eclipse: [eclipse]
   "artificial intelligence": [ai, "artificial intelligence", "machine learning", ml, "deep learning", llm, "generative ai", "prompt engineering"]
   "machine learning": ["machine learning", ml, "deep learning", "neural network", "neural networks", pytorch, tensorflow, "scikit-learn", "computer vision", nlp]
   research: [research, "research experience", "undergraduate research", "research assistant", "r&d", "research and development", publication, "peer-reviewed", laboratory, lab]

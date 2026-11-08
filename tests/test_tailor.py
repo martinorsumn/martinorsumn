@@ -64,7 +64,7 @@ def test_swe_jd_prioritizes_code_projects_over_robotics(resume):
     # A pure-code project should outrank the hardware/robotics internship.
     proj_scores = {r.item["name"]: r.score for r in result.ranked["projects"]}
     assert proj_scores["Python Adventure Game"] > 0
-    assert proj_scores["Followers Analyzer"] > 0
+    assert proj_scores["Passport Project"] > 0
 
 
 def test_ranking_is_relevance_ordered(resume):
